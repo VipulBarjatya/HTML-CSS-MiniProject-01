@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Orbitron;
+    width: 1600px;
+    margin: 0 auto;
+}
+
+.container {
+    margin-bottom: 2rem;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem auto 4rem auto;
+
+
+}
+
+.list {
+    list-style: none;
+    display: flex;
+    gap: 3.5rem;
+    font-weight: bold;
+
+    align-items: center;
+    font-size: 1.4rem;
+}
+
+.list li:first-child {
+    font-size: 2rem;
+}
+
+li span {
+    border-bottom: 4px solid #000;
+}
+
+.button-group {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+/* .search-icon {
+    transform: scale(.8);
+} */
+
+.nav-button {
+    font-family: poppins;
+    background: none;
+    border: 3px solid black;
+    padding: .3rem 4rem;
+    border-radius: 15px;
+    font-size: 1.5rem;
+    color: #4d4d4d;
+}
+
+.hero-container {
+    display: grid;
+    grid-template-columns: 1.3fr 1.7fr;
+}
+
+.hero-container-left {
+    position: relative;
+}
+
+.square {
+    position: absolute;
+    top: 380px;
+    left: 200px;
+}
+
+.globe {
+    position: absolute;
+    left: 870px;
+    top: -5px;
+}
+
+.star1 img {
+    width: 50px;
+    position: absolute;
+    top: 700px;
+    left: 720px;
+
+}
+
+.star2 img {
+    position: absolute;
+    top: 55px;
+    left: 1525px;
+
+}
+
+.hero-image {
+    height: 650px;
+    position: absolute;
+    top: 50px
+}
+
+
+.hero-container-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10rem;
+}
+
+.hero-heading {
+    font-size: 4.2rem;
+}
+
+.hero-description {
+    font-family: poppins;
+    font-size: 18px;
+    color: #4d4d4d;
+    margin: 4rem 3rem;
+    text-align: center;
+}
+
+.buttons {
+    margin: 4rem auto 0 auto;
+    display: flex;
+    gap: 1rem;
+}
+
+.button-email {
+    background: none;
+    font-size: 1.5rem;
+    font-family: Orbitron;
+    font-weight: 600;
+    color: #4d4d4d;
+    padding: .2rem 2rem;
+    border-radius: 10px;
+}
+
+.button-join {
+    background-color: #000;
+    color: #fff;
+    font-size: 1.5rem;
+    font-family: Orbitron;
+    border-radius: 10px;
+    padding: .2rem;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8rem;
+}
+
+
+.contact-heading {
+    font-family: poppins;
+    color: #4d4d4d;
+    font-size: 1.6rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+
+}
+
+.icons span {
+    margin: .8rem;
+}
